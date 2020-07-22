@@ -1,4 +1,4 @@
-# node-jamf
+# jamf-sdk-node
 
 **NOTE: This repository has been deprecated and archived. It has been mirrored to https://github.com/trevorspecht/jamf-sdk-node and will continue to live and be maintained by @trevorspecht, but will no longer have any connection to Mapbox.**
 
