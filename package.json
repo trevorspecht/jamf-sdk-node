@@ -27,7 +27,7 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^7.5.0",
     "nock": "^9.0.13",
     "tape": "^4.6.3"
   }
