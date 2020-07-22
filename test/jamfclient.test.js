@@ -85,8 +85,8 @@ tape('Jamf API client configuration success', function(assert){
 tape('Jamf API request to get computers in JSON format', function(assert){
 
     nock('https://abc123.jamfcloud.com')
-        .get('/JSSResource/computers')
-        .reply('200', allComputers);
+    .get('/JSSResource/computers')
+    .reply('200', allComputers);
 
     var jamf = new JamfApiClient(jsonConfig);
 
@@ -102,8 +102,8 @@ tape('Jamf API request to get computers in JSON format', function(assert){
 tape('Jamf API request to get computers in XML format', function(assert){
 
     nock('https://abc123.jamfcloud.com')
-        .get('/JSSResource/computers')
-        .reply('200', xmlAllComputers);
+    .get('/JSSResource/computers')
+    .reply('200', xmlAllComputers);
 
     var jamf = new JamfApiClient(xmlConfig);
 
@@ -119,8 +119,8 @@ tape('Jamf API request to get computers in XML format', function(assert){
 tape('Incorrect Jamf API request', function(assert){
 
     nock('https://abc123.jamfcloud.com')
-        .get('/JSSResource/com123puters')
-        .reply(404);
+    .get('/JSSResource/com123puters')
+    .reply(404);
 
     var jamf = new JamfApiClient(jsonConfig);
 

@@ -1,4 +1,5 @@
-Copyright © Trevor Specht @trevorspecht
+Copyright © 2020 Alex Ulsh, Trevor Specht
+
 
 This code available under the terms of the BSD 2-Clause license.
 
