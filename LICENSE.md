@@ -1,4 +1,4 @@
-Copyright © 2017 Mapbox, Inc.
+Copyright © Trevor Specht @trevorspecht
 
 This code available under the terms of the BSD 2-Clause license.
 

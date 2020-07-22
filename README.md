@@ -1,6 +1,6 @@
 # node-jamf
 
-**NOTE: This repository has been deprecated and archived. It has been mirrored to https://github.com/trevorspecht/jamf-sdk-node and will continue to live and be maintained by @trevorspecht, but will no longer have any connection to Mapbox.**
+**NOTE: This repository was moved from mapbox/node-jamf, which has since been archived. The `jamf` NPM module will continue to live here and be maintained by @trevorspecht, and will no longer have any connection to Mapbox.**
 
 A lightweight Node.js wrapper for Jamf Pro's JSS REST API.
 
