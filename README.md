@@ -1,4 +1,4 @@
-# node-jamf
+# jamf-sdk-node
 
 **NOTE: This repository was moved from mapbox/node-jamf, which has since been archived. The `jamf` NPM module will continue to live here and be maintained by @trevorspecht, and will no longer have any connection to Mapbox.**
 
@@ -6,9 +6,8 @@ A lightweight Node.js wrapper for Jamf Pro's JSS REST API.
 
 ## Scope
 
-Currently this module only supports `GET` requests for the JSS REST API. [Support for other methods such as `PUT`, `POST`, and `DELETE` will be added later](https://github.com/mapbox/node-jamf/issues/6).
+Currently this module only supports `GET` requests for the JSS REST API. Support for other methods such as `PUT`, `POST`, and `DELETE` will be added later
 
-[Support for the JSS Universal API](https://github.com/mapbox/node-jamf/issues/5) may also be added later.
 
 ## Installation 
 
@@ -101,5 +100,6 @@ All of your tests should pass both locally and in Travis before we'll accept you
 
 ## Resources
 
-* You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`. This page also contains an API playground where you can test out requests.
-* [The Unofficial Jamf API Docs](https://unofficial-jss-api-docs.atlassian.net/wiki)
+* You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`.
+* [Jamf API Documentation](https://developer.jamf.com/documentation)
+* [Casper API Command Line Tool](https://github.com/eventbrite/Casper-API-Tools) - good reference for XML structure for `PUT` and `POST`.
