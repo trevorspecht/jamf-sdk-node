@@ -1,13 +1,15 @@
 # jamf-sdk-node
 
-**NOTE: This repository was moved from mapbox/node-jamf, which has since been archived. The `jamf` NPM module will continue to live here and be maintained by @trevorspecht, and will no longer have any connection to Mapbox.**
+**NOTE: This package was moved from github.com/mapbox/node-jamf, which has since been archived. The `jamf` NPM module will be maintained by @trevorspecht, and will no longer have any connection to Mapbox.**
+
 
 A lightweight Node.js wrapper for Jamf Pro's JSS REST API.
 
 ## Scope
 
-Currently this module only supports `GET` requests for the JSS REST API. Support for other methods such as `PUT`, `POST`, and `DELETE` will be added later
+Currently this module only supports `GET` requests for the JSS REST API. Support for other methods such as `PUT`, `POST`, and `DELETE` will be added later.
 
+Support for the JSS Universal API may also be added later.
 
 ## Installation 
 
@@ -88,18 +90,18 @@ The tests use [eslint](http://eslint.org/) for linting and [tape](https://github
 
 Are we missing something in this module? Did you find a bug?
 
-Please look through the [list of issues](https://github.com/mapbox/node-jamf/issues?utf8=%E2%9C%93&q=is%3Aissue) (both open and closed) and see if an issue already exists for what you want to propose or report.
+Please look through the [list of issues](https://github.com/mapbox/jamf-sdk-node/issues?utf8=%E2%9C%93&q=is%3Aissue) (both open and closed) and see if an issue already exists for what you want to propose or report.
 
-Don't see anything in the issues? Please [create a new one](https://github.com/mapbox/node-jamf/issues/new)!
+Don't see anything in the issues? Please [create a new one](https://github.com/mapbox/jamf-sdk-node/issues/new)!
 
 ## Contributing
 
 Contributors are welcome! If you want to contribute, please fork this repo then submit a pull request (PR).
 
-All of your tests should pass both locally and in Travis before we'll accept your PR. We also request that you add additional test coverage and documentation updates in your PR where applicable.
+All of your tests should pass before we'll accept your PR. We also request that you add additional test coverage and documentation updates in your PR where applicable.
 
 ## Resources
 
-* You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`.
+* You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`
 * [Jamf API Documentation](https://developer.jamf.com/documentation)
-* [Casper API Command Line Tool](https://github.com/eventbrite/Casper-API-Tools) - good reference for XML structure for `PUT` and `POST`.
+
