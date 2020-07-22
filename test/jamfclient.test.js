@@ -124,7 +124,7 @@ tape('Incorrect Jamf API request', function(assert){
 
     var jamf = new JamfApiClient(jsonConfig);
 
-  /* we should be testing for '404 Not Found' but there is a bug with response.statusMessage
+    /* we should be testing for '404 Not Found' but there is a bug with response.statusMessage
   and the Nock module, see https://github.com/node-nock/nock/issues/469
   */
 

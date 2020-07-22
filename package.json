@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/node-jamf.git"
+    "url": "git://github.com:trevorspecht/jamf-sdk-node.git"
   },
   "bugs": {
     "url": "https://github.com/trevorspecht/jamf-sdk-node/issues"
@@ -31,7 +31,7 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "nock": "^9.0.13",
     "tape": "^4.6.3"
   }

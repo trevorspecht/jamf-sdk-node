@@ -2,6 +2,7 @@
 
 **NOTE: This package was moved from github.com/mapbox/node-jamf, which has since been archived. The `jamf` NPM module will be maintained by @trevorspecht, and will no longer have any connection to Mapbox.**
 
+
 A lightweight Node.js wrapper for Jamf Pro's JSS REST API.
 
 ## Scope
@@ -103,3 +104,4 @@ All of your tests should pass before we'll accept your PR. We also request that 
 
 * You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`
 * [Jamf API Documentation](https://developer.jamf.com/documentation)
+
