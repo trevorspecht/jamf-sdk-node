@@ -7,7 +7,7 @@ A lightweight Node.js wrapper for Jamf Pro's JSS REST API.
 
 ## Scope
 
-Currently this module only supports `GET` requests for the JSS REST API. Support for other methods such as `PUT`, `POST`, and `DELETE` will be added later.
+Currently this module only supports `GET`, `PUT`, and `POST` requests for the JSS REST API. Support for `DELETE` will be added later.
 
 Support for the JSS Universal API may also be added later.
 
@@ -59,7 +59,7 @@ You need to configure the Jamf API client before it can make any API calls. You'
 * `user`: username for the JSS user accessing the Jamf API
 * `password`: password for the above account
 * `jamfUrl`: the URL of your JSS instance, whether on premise or in the cloud (`https://yourdomain.jamfcloud.com`)
-* `format`: the format of the returned data, must be either `xml` (Jamf API default) or `json`
+* `format`: the format of the returned data, must be either `xml` (Jamf API default) or `json`. `PUT` and `POST` methods always return xml,
 
 We recommend you create a new dedicated, least privilege API user for these scripts. The user must have the necessary privileges (create, read, update, or delete) on the JSS objects
 
@@ -102,6 +102,6 @@ All of your tests should pass before we'll accept your PR. We also request that 
 
 ## Resources
 
-* You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`
+* You can see all available Jamf API calls by accessing `/api` on your JSS instance. For example, visit `https://yourdomain.jamfcloud.com/api`. This page also contains an API playground where you can test out requests.
 * [Jamf API Documentation](https://developer.jamf.com/documentation)
-
+* [Casper API Command Line Tool](https://github.com/eventbrite/Casper-API-Tools) - good reference for XML structure for `PUT` and `POST`.
